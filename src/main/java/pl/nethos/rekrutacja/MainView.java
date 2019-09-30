@@ -32,7 +32,7 @@ public class MainView extends VerticalLayout {
         kontrahent.setNip("12345");
         kontrahentRepository.save(kontrahent);
 
-        Notification.show(String.format("Dodano %s", nazwa));
+        Notification.show(String.format("Dodano %s !!!", nazwa));
     }
 
 }
